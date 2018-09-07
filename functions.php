@@ -30,3 +30,16 @@ function total_child_enqueue_parent_theme_style() {
 	
 }
 add_action( 'wp_enqueue_scripts', 'total_child_enqueue_parent_theme_style' );
+
+
+/**
+ * Theme Funktionen
+ */
+
+include 'functions/admin.php';
+
+
+
+/**
+ * Induviduelle Theme Funktionen
+ */
